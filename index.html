@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  </head>
+  <body>
+    <main class="container">
+      <h1>Age Calculator</h1>
+      <form id="ageForm">
+        <label for="birthdate">Enter your birth date:</label>
+        <input id="birthdate" name="birthdate" placeholder="Select a date" />
+        <button type="submit">Calculate</button>
+      </form>
+      <p id="result" class="result"></p>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
